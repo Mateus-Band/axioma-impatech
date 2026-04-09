@@ -5,7 +5,7 @@ import Image from 'next/image';
 export default function Navbar() {
   return (
     <header className="w-full py-4" style={{ backgroundColor: 'var(--color-primary)', margin: '0' }}>
-      <div className="flex items-center" style={{ paddingLeft: '24px' }}>
+      <div className="flex items-center" style={{ paddingLeft: '24px', gap: '24px' }}>
         <Image
           src="/icon.svg"
           alt="Axioma Icon"
@@ -13,6 +13,10 @@ export default function Navbar() {
           height={100}
           priority
         />
+        <div>
+          <h1 className="text-5xl font-bold">Axioma</h1>
+          <p className="mt-4 text-gray-400">Impatech — em breve</p>
+        </div>
       </div>
     </header>
   );
