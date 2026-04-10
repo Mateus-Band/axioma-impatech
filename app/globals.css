@@ -9,7 +9,9 @@ html, body {
 
 /* Adicionando paleta de cores */
 :root {
-  --color-primary: #ccc4af; /* Bege */
+  --color-primary: #0cc0df; /* Azul Claro */
+  --color-secondary: #006dac; /* Azul */
+  --color-alternative: #ccc4af; /* Bege */
   --color-matematica: #ff8aef; /* Rosa */
   --color-computacao: #ffc555; /* Laranja */
   --color-dados: #ecf47a; /* Amarelo */
