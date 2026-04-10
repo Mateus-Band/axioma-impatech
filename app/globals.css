@@ -1,13 +1,12 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Importação do Tailwind v4 */
+@import "tailwindcss";
 
-html, body {
-  margin: 0;
-  padding: 0;
+/* Configurações do tema (substitui o antigo tailwind.config.js) */
+@theme {
+  --font-sans: Arial, sans-serif;
 }
 
-/* Adicionando paleta de cores */
+/* Suas variáveis normais */
 :root {
   --color-primary: #0cc0df; /* Azul Claro */
   --color-secondary: #006dac; /* Azul */
@@ -18,15 +17,4 @@ html, body {
   --color-fisica: #beff8b; /* Verde */
   --color-background: #f3f3f3; /* Branco */
   --color-text: #000; /* Preto */
-  --font-family: Arial, sans-serif;
-}
-
-/* Definindo Arial como fonte padrão */
-body {
-  font-family: var(--font-family);
-}
-
-/* Definindo Arial comme fonte padrão */
-body {
-  font-family: var(--font-family);
 }
