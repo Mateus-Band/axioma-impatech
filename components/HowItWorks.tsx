@@ -47,7 +47,7 @@ export default function HowItWorks() {
               className="rounded-xl p-8 border"
               style={{
                 backgroundColor: '#fff',
-                borderColor: 'rgba(0,0,0,0.05)',
+                borderColor: card.accentColor,
                 boxShadow: '0 1px 3px rgba(0,0,0,0.02)',
               }}
             >

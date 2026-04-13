@@ -5,7 +5,7 @@ export default function Footer() {
       style={{ backgroundColor: 'var(--color-secondary)', color: 'rgba(255,255,255,0.6)' }}
     >
       <p className="mb-1">
-        Projeto Axioma —{' '}
+        © Copyright 2025 Projeto Axioma —{' '}
         
         {/* Faltava a abertura da tag <a */}
         <a
