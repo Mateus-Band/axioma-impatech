@@ -1,8 +1,7 @@
 export default function Footer() {
   return (
     <footer
-      className="px-6 py-10 text-center text-sm"
-      style={{ backgroundColor: 'var(--color-secondary)', color: 'rgba(255,255,255,0.6)' }}
+      className="px-6 py-10 text-center text-sm bg-secondary text-white/60"
     >
       <p className="mb-1">
         © Copyright 2025 Projeto Axioma —{' '}
@@ -12,8 +11,7 @@ export default function Footer() {
           href="https://impatech.edu.br"
           target="_blank"
           rel="noopener noreferrer"
-          className="underline"
-          style={{ color: 'var(--color-primary)' }}
+          className="underline text-primary"
         >
           IMPA Tech
         </a>

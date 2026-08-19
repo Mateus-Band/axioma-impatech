@@ -9,7 +9,7 @@ import Reveal from '@/components/Reveal'
 
 export default function Home() {
   return (
-    <main style={{ backgroundColor: 'var(--color-background)', color: 'var(--color-text)' }}>
+    <main className="bg-background text-text">
       <Reveal>
         <Hero />
       </Reveal>

@@ -4,17 +4,16 @@
 /* Configurações do tema (substitui o antigo tailwind.config.js) */
 @theme {
   --font-sans: Arial, sans-serif;
-}
 
-/* Suas variáveis normais */
-:root {
-  --color-primary: #0cc0df; /* Azul Claro */
-  --color-secondary: #006dac; /* Azul */
-  --color-alternative: #ccc4af; /* Bege */
-  --color-matematica: #ff8aef; /* Rosa */
-  --color-computacao: #ffc555; /* Laranja */
-  --color-dados: #ecf47a; /* Amarelo */
-  --color-fisica: #beff8b; /* Verde */
-  --color-background: #f3f3f3; /* Branco */
-  --color-text: #000; /* Preto */
+  /* Cores do projeto */
+  --color-primary: #519cab;
+  --color-navbar: #315E7D;
+  --color-secondary: #335c67;
+  --color-alternative: #c3e7f1;
+  --color-matematica: #c3e7f1;
+  --color-computacao: #4f957d;
+  --color-dados: #e09f3e;
+  --color-fisica: #9e2a2b;
+  --color-background: #efebe3;
+  --color-text: #000;
 }

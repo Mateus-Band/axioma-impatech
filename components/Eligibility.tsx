@@ -11,12 +11,11 @@ export default function Eligibility() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div>
           <h2
-            className="text-3xl font-bold mb-6"
-            style={{ color: 'var(--color-secondary)' }}
+            className="text-3xl font-bold mb-6 text-secondary"
           >
             Para quem é?
           </h2>
-          <p className="text-base leading-relaxed mb-8" style={{ color: 'var(--color-text)' }}>
+          <p className="text-base leading-relaxed mb-8 text-text">
             O projeto é voltado a jovens com potencial nas ciências exatas que buscam
             aprofundamento além do currículo escolar e querem se preparar para a universidade.
           </p>
@@ -24,12 +23,11 @@ export default function Eligibility() {
             {items.map((item) => (
               <li key={item} className="flex items-start gap-3">
                 <span
-                  className="mt-1 w-5 h-5 rounded-full flex-shrink-0 flex items-center justify-center text-xs font-bold text-white"
-                  style={{ backgroundColor: 'var(--color-primary)' }}
+                  className="mt-1 w-5 h-5 rounded-full flex-shrink-0 flex items-center justify-center text-xs font-bold text-white bg-primary"
                 >
                   ✓
                 </span>
-                <span className="text-base" style={{ color: 'var(--color-text)' }}>
+                <span className="text-base text-text">
                   {item}
                 </span>
               </li>
@@ -38,12 +36,11 @@ export default function Eligibility() {
         </div>
 
         <div
-          className="rounded-xl p-8 text-center"
-          style={{ backgroundColor: 'var(--color-primary)' }}
+          className="rounded-xl p-8 text-center bg-primary"
         >
           <p className="text-6xl font-bold text-white mb-2">40</p>
           <p className="text-white text-lg font-bold mb-4">vagas por turma</p>
-          <p className="text-sm" style={{ color: 'rgba(255,255,255,0.8)' }}>
+          <p className="text-sm text-white/80">
             Se o número de inscritos exceder as vagas disponíveis, será realizada uma
             prova online para classificação dos candidatos.
           </p>

@@ -29,43 +29,37 @@ const cards: Omit<CardProps, 'icon'>[] = [
 export default function HowItWorks() {
   return (
     <section
-      className="px-6 py-20"
-      style={{ backgroundColor: '#fff' }}
+      className="px-6 py-20 bg-white"
     >
       <div className="max-w-4xl mx-auto">
         <h2
-          className="text-3xl font-bold mb-12"
-          style={{ color: 'var(--color-secondary)' }}
+          className="text-3xl font-bold mb-12 text-secondary"
         >
           Como funciona
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {cards.map((card) => (
-            <div
-              key={card.title}
-              className="rounded-xl p-8 border"
-              style={{
-                backgroundColor: '#fff',
-                borderColor: card.accentColor,
-                boxShadow: '0 1px 3px rgba(0,0,0,0.02)',
-              }}
-            >
+              <div
+                key={card.title}
+                className="rounded-xl p-8 border bg-white shadow-sm"
+                style={{
+                  borderColor: card.accentColor,
+                }}
+              >
               <div className="flex items-center gap-3 mb-3">
                 <span
                   className="w-2.5 h-2.5 rounded-full flex-shrink-0"
                   style={{ backgroundColor: card.accentColor }}
                 />
                 <h3
-                  className="text-xl font-bold"
-                  style={{ color: 'var(--color-secondary)' }}
+                  className="text-xl font-bold text-secondary"
                 >
                   {card.title}
                 </h3>
               </div>
               <p
-                className="text-base leading-relaxed"
-                style={{ color: 'var(--color-text)' }}
+                className="text-base leading-relaxed text-text"
               >
                 {card.description}
               </p>
