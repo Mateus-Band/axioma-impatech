@@ -4,10 +4,6 @@
 /* Configurações do tema (substitui o antigo tailwind.config.js) */
 @theme {
   --font-sans: Arial, sans-serif;
-}
-
-/* Suas variáveis normais */
-:root {
   --color-primary: #0cc0df; /* Azul Claro */
   --color-secondary: #006dac; /* Azul */
   --color-alternative: #ccc4af; /* Bege */

@@ -1,5 +1,4 @@
 import { StepProps } from '@/types'
-import Reveal from '@/components/Reveal'
 const steps: StepProps[] = [
   {
     number: 1,
@@ -37,11 +36,11 @@ export default function Selection() {
 
         <div className="space-y-8">
           {steps.map((step, index) => (
-          <Reveal>
+          
             <div key={step.number} className="flex gap-6">
               <div className="flex flex-col items-center">
                 <div
-                  className="w-10 h-10 rounded-full flex items-center justify-center font-bold text-white flex-shrink-0"
+                  className="w-10 h-10 rounded-full flex items-center justify-center font-bold text-white shrink-0"
                   style={{ backgroundColor: 'var(--color-secondary)' }}
                 >
                   {step.number}
@@ -65,7 +64,7 @@ export default function Selection() {
                 </p>
               </div>
             </div>
-          </Reveal>
+          
           ))}
         </div>
       </div>
